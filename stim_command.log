@@ -1,0 +1,9 @@
+INFO:root:Logger enabled for send_stim_command.py
+INFO:root:Logger enabled for send_stim_command.py
+INFO:root:Set up 1 serial port, UART1
+INFO:root:Logger enabled for send_stim_command.py
+ERROR:ex:Error! UART1 not available
+Traceback (most recent call last):
+  File "send_stim_commnd.py", line 36, in <module>
+    UART.setup("UART1")
+NameError: name 'UART' is not defined
